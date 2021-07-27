@@ -12,7 +12,7 @@ Implementation of the 30 Second Chair Stand Test for the Biomedical Signal Proce
 
 
 ## Assessment of the 30 Second Chair Stand Test
-1. The test should start with the subject sitting in the middle of a chair, firmly holding the smartphone in one hand with the screen facing upwards, i.e. with Z-axis perpendicular to the floor. Please refer to the following image from Mathworks website:
+1. The test should start with the subject sitting in the middle of a chair, firmly holding the smartphone in one hand with the screen facing upwards, i.e. with Z-axis perpendicular to the floor. Please refer to the following image from Mathworks website:\
 ![Axes orientation](https://www.mathworks.com/matlabcentral/answers/uploaded_files/162922/image.jpeg)
 
 2. The subject should keep his/her hands on the opposite shoulders crossed at the wrists, the feet flat on the floor and the back straight.
@@ -26,7 +26,7 @@ For further details, you can read the following material:
 
 
 ## Usage
-**Please notice that the software assumes a sampling frequency set to 100Hz.** You can set it in the settings of Matlab Mobile.
+**Please notice that the software assumes a sampling frequency set to 100Hz.** You can set it in the settings of Matlab Mobile.\
 Once the .mat files are retrieved from the smartphone, they should be put in the *'MobileSensorData'* directory.
 You should change the filename variable in the *'src/main.m'* with the file you want to use (e.g. filename = 'file1.mat').
 
